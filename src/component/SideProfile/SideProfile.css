@@ -1,0 +1,25 @@
+.side-profile{
+    position:absolute;
+    top:0;
+    right:0;
+    width:350px;
+    height:800px;
+}
+
+.profile-box{
+    width: 250px;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(223 222 232);
+    border-radius: 20px;
+    padding: 30px 24px;
+}
+
+.profile-img{
+    width: 200px;
+    height: 214px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom:30px;
+}

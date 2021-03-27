@@ -1,0 +1,31 @@
+
+
+.side-left{
+    position:relative;
+}
+
+.side-menu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 800px;
+}
+
+.side-title{
+    padding: 9px 53px 60px;
+}
+
+.side-title .title{
+    font-size: 15px;
+}
+
+.side-list ul{
+    padding-left:20px;
+}
+
+.side-list ul li{
+    margin-bottom:10px;
+    height:37px;
+    text-align: center;
+}
