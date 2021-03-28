@@ -7,7 +7,7 @@
 .side-menu{
     position: absolute;
     left: 0;
-    top: 0;
+    top: 20px;
     width: 150px;
     height: 800px;
 }
@@ -26,6 +26,13 @@
 
 .side-list ul li{
     margin-bottom:10px;
-    height:37px;
-    text-align: center;
+    height:42px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+}
+
+.side-list .active{
+    background:#f3f3f3;
 }

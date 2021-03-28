@@ -11,15 +11,29 @@
     height: 750px;
     margin: 0 auto;
     margin-top: 30px;
-    background-color: rgb(223 222 232);
+    background-color: #f3f3fb;
     border-radius: 20px;
     padding: 30px 24px;
 }
 
 .profile-img{
     width: 200px;
-    height: 214px;
+    height: 260px;
     margin: 0 auto;
     background: white;
-    margin-bottom:30px;
+    margin-bottom:50px;
+}
+
+.profile-detail{
+    font-size:14px;
+    padding-left:10px;
+    padding-top:5px;
+}
+
+.profile-dicp div{
+    margin-bottom:20px;
+}
+
+.profile-tit{
+    font-size:18px;
 }

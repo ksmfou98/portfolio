@@ -12,13 +12,13 @@ const SideMenu = () => {
 
             <div className="side-list">
                 <ul>
-                    <li>
+                    <li className="active">
                         <a href={() => false} className="list-name">자기소개</a>
                     </li>
-                    <li>
+                    <li className="">
                         <a href={() => false} className="list-name">프로젝트</a>
                     </li>
-                    <li>
+                    <li className="">
                         <a href={() => false} className="list-name">기술스택</a>
                     </li>
                 </ul>
