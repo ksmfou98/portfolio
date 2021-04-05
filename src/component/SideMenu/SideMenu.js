@@ -1,5 +1,4 @@
 import React from "react";
-import SideProfile from "../SideProfile/SideProfile";
 import "./SideMenu.css";
 
 const SideMenu = () => {
@@ -13,10 +12,10 @@ const SideMenu = () => {
             <div className="side-list">
                 <ul>
                     <li className="active">
-                        <a href={() => false} className="list-name">자기소개</a>
+                        <a href={() => false} className="list-name">프로젝트</a>
                     </li>
                     <li className="">
-                        <a href={() => false} className="list-name">프로젝트</a>
+                        <a href={() => false} className="list-name">공부방향</a>
                     </li>
                     <li className="">
                         <a href={() => false} className="list-name">기술스택</a>
@@ -24,10 +23,9 @@ const SideMenu = () => {
                 </ul>
             </div>
 
-            <div className="side-user"></div>
         </div>
 
-        <SideProfile />
+        
     </div>
   );
 };

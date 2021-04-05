@@ -33,6 +33,11 @@
     border-radius:20px;
 }
 
+.side-list ul li:hover{
+    cursor: pointer;
+    background-color: #f7f7ff;
+}
+
 .side-list .active{
-    background:#f3f3f3;
+    background:#f3f3fb;
 }
