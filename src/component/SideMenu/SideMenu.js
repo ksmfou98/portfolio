@@ -1,5 +1,6 @@
 import React from "react";
 import "./SideMenu.css";
+import {Link} from "react-router-dom";
 
 const SideMenu = () => {
   return (
@@ -12,13 +13,13 @@ const SideMenu = () => {
             <div className="side-list">
                 <ul>
                     <li className="active">
-                        <a href={() => false} className="list-name">프로젝트</a>
+                        <Link to="/" className="list-name">홈</Link>
                     </li>
                     <li className="">
-                        <a href={() => false} className="list-name">공부방향</a>
+                        <Link to="/project" className="list-name">프로젝트</Link>
                     </li>
                     <li className="">
-                        <a href={() => false} className="list-name">기술스택</a>
+                        <a href={() => false} className="list-name">공부기록</a>
                     </li>
                 </ul>
             </div>

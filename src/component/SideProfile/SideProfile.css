@@ -1,4 +1,5 @@
 .side-profile {
+  display:none;
   position: fixed;
   top: 0;
   right: 0;
@@ -34,4 +35,10 @@
 
 .profile-tit {
   font-size: 18px;
+}
+
+@media screen and (min-width: 1300px) {
+  .side-profile{
+    display:block;
+  }
 }

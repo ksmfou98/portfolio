@@ -4,14 +4,16 @@ import Side from "page/Side/Side";
 import "./App.css";
 import SideProfile from "component/SideProfile/SideProfile";
 import Project from "page/Project/Project";
+import Main from "page/Main/Main";
 
 function App() {
   return (
     <Router>
-      <Side />
-      <SideProfile />
       <div id="container">
-        <Route exact path="/" component={Project} />
+        <Side />
+        <SideProfile />
+        <Route exact path="/" component={Main} />
+        <Route path="/project" component={Project} />
       </div>
       
     </Router>

@@ -22,7 +22,7 @@ a:visited,
 a:active,
 a:hover {
   text-decoration: none;
-  color: #646464;
+  color: black;
 }
 
 h2,
@@ -32,5 +32,5 @@ ul{
 }
 
 #container{
-  min-width: 1050px;
+  min-width: 780px;
 }

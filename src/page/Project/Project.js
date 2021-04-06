@@ -13,19 +13,54 @@ const Project = () => {
                     <button className="move-left move">
                      <IoIosArrowBack size="23" />
                     </button>
-                    
-                    <ul>
-                        <li>
-                            이미지1
-                        </li>
-                        <li>
-                            이미지2
-                        </li>
-                        
-                    </ul>
                     <button className="move-right move">
                         <IoIosArrowForward size="23" />
                     </button>
+                    <div className="img-list">
+                        <ul>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            <li>
+                                <img src="https://via.placeholder.com/150" alt=""/>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
                 </div>
                 <div className="project-description">
                     <span>아르바이트 직원관리, 매장관리 웹앱</span>
@@ -43,19 +78,60 @@ const Project = () => {
                     <button className="move-left move">
                      <IoIosArrowBack size="23" />
                     </button>
-                    
-                    <ul>
-                        <li>
-                            이미지1
-                        </li>
-                        <li>
-                            이미지2
-                        </li>
-                        
-                    </ul>
                     <button className="move-right move">
                         <IoIosArrowForward size="23" />
                     </button>
+                    <div className="img-list">
+                        <ul>
+                            <li>
+                                <img src="" alt=""/>
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
                 </div>
                 <div className="project-description">
                     <span>아르바이트 직원관리, 매장관리 웹앱</span>
@@ -73,19 +149,60 @@ const Project = () => {
                     <button className="move-left move">
                      <IoIosArrowBack size="23" />
                     </button>
-                    
-                    <ul>
-                        <li>
-                            이미지1
-                        </li>
-                        <li>
-                            이미지2
-                        </li>
-                        
-                    </ul>
                     <button className="move-right move">
                         <IoIosArrowForward size="23" />
                     </button>
+                    <div className="img-list">
+                        <ul>
+                            <li>
+                                이미지1
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            <li>
+                                이미지2
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
                 </div>
                 <div className="project-description">
                     <span>아르바이트 직원관리, 매장관리 웹앱</span>
