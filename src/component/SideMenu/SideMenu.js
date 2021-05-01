@@ -17,18 +17,33 @@ const SideMenu = () => {
 
         <div className="side-list">
           <ul>
-            <li className="">
-              <NavLink exact to="/" activeStyle={activeStyle} className="list-name">
+            <li>
+              <NavLink
+                exact
+                to="/"
+                activeStyle={activeStyle}
+                className="list-name"
+              >
                 홈
               </NavLink>
             </li>
-            <li className="">
-              <NavLink exact to="/project" activeStyle={activeStyle} className="list-name">
+            <li>
+              <NavLink
+                exact
+                to="/project"
+                activeStyle={activeStyle}
+                className="list-name"
+              >
                 프로젝트
               </NavLink>
             </li>
-            <li className="">
-              <NavLink exact to="/study" activeStyle={activeStyle} className="list-name">
+            <li>
+              <NavLink
+                exact
+                to="/study"
+                activeStyle={activeStyle}
+                className="list-name"
+              >
                 공부기록
               </NavLink>
             </li>
