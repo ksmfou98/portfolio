@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .side-list ul li:hover{
@@ -46,6 +47,3 @@
     background-color: #f7f7ff;
 }
 
-.side-list .active{
-    background:#f3f3fb;
-}
